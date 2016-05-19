@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30AD948A1CEE40D000152B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD94891CEE40D000152B90 /* AppDelegate.swift */; };
+		30AD948C1CEE40D000152B90 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30AD948B1CEE40D000152B90 /* GameScene.sks */; };
+		30AD948E1CEE40D000152B90 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD948D1CEE40D000152B90 /* GameScene.swift */; };
+		30AD94901CEE40D000152B90 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD948F1CEE40D000152B90 /* GameViewController.swift */; };
+		30AD94931CEE40D000152B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AD94911CEE40D000152B90 /* Main.storyboard */; };
+		30AD94951CEE40D000152B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AD94941CEE40D000152B90 /* Assets.xcassets */; };
+		30AD94981CEE40D100152B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AD94961CEE40D100152B90 /* LaunchScreen.storyboard */; };
+		30AD94A31CEE40D100152B90 /* KrazyKreaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD94A21CEE40D100152B90 /* KrazyKreaturesTests.swift */; };
+		30AD94AE1CEE40D100152B90 /* KrazyKreaturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD94AD1CEE40D100152B90 /* KrazyKreaturesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30AD949F1CEE40D100152B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30AD947E1CEE40D000152B90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30AD94851CEE40D000152B90;
+			remoteInfo = KrazyKreatures;
+		};
+		30AD94AA1CEE40D100152B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30AD947E1CEE40D000152B90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30AD94851CEE40D000152B90;
+			remoteInfo = KrazyKreatures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30AD94861CEE40D000152B90 /* KrazyKreatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrazyKreatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AD94891CEE40D000152B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30AD948B1CEE40D000152B90 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		30AD948D1CEE40D000152B90 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		30AD948F1CEE40D000152B90 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		30AD94921CEE40D000152B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30AD94941CEE40D000152B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30AD94971CEE40D100152B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30AD94991CEE40D100152B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AD949E1CEE40D100152B90 /* KrazyKreaturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrazyKreaturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AD94A21CEE40D100152B90 /* KrazyKreaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrazyKreaturesTests.swift; sourceTree = "<group>"; };
+		30AD94A41CEE40D100152B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AD94A91CEE40D100152B90 /* KrazyKreaturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrazyKreaturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AD94AD1CEE40D100152B90 /* KrazyKreaturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrazyKreaturesUITests.swift; sourceTree = "<group>"; };
+		30AD94AF1CEE40D100152B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30AD94831CEE40D000152B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD949B1CEE40D100152B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD94A61CEE40D100152B90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30AD947D1CEE40D000152B90 = {
+			isa = PBXGroup;
+			children = (
+				30AD94881CEE40D000152B90 /* KrazyKreatures */,
+				30AD94A11CEE40D100152B90 /* KrazyKreaturesTests */,
+				30AD94AC1CEE40D100152B90 /* KrazyKreaturesUITests */,
+				30AD94871CEE40D000152B90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30AD94871CEE40D000152B90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30AD94861CEE40D000152B90 /* KrazyKreatures.app */,
+				30AD949E1CEE40D100152B90 /* KrazyKreaturesTests.xctest */,
+				30AD94A91CEE40D100152B90 /* KrazyKreaturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30AD94881CEE40D000152B90 /* KrazyKreatures */ = {
+			isa = PBXGroup;
+			children = (
+				30AD94891CEE40D000152B90 /* AppDelegate.swift */,
+				30AD948B1CEE40D000152B90 /* GameScene.sks */,
+				30AD948D1CEE40D000152B90 /* GameScene.swift */,
+				30AD948F1CEE40D000152B90 /* GameViewController.swift */,
+				30AD94911CEE40D000152B90 /* Main.storyboard */,
+				30AD94941CEE40D000152B90 /* Assets.xcassets */,
+				30AD94961CEE40D100152B90 /* LaunchScreen.storyboard */,
+				30AD94991CEE40D100152B90 /* Info.plist */,
+			);
+			path = KrazyKreatures;
+			sourceTree = "<group>";
+		};
+		30AD94A11CEE40D100152B90 /* KrazyKreaturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				30AD94A21CEE40D100152B90 /* KrazyKreaturesTests.swift */,
+				30AD94A41CEE40D100152B90 /* Info.plist */,
+			);
+			path = KrazyKreaturesTests;
+			sourceTree = "<group>";
+		};
+		30AD94AC1CEE40D100152B90 /* KrazyKreaturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30AD94AD1CEE40D100152B90 /* KrazyKreaturesUITests.swift */,
+				30AD94AF1CEE40D100152B90 /* Info.plist */,
+			);
+			path = KrazyKreaturesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30AD94851CEE40D000152B90 /* KrazyKreatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AD94B21CEE40D100152B90 /* Build configuration list for PBXNativeTarget "KrazyKreatures" */;
+			buildPhases = (
+				30AD94821CEE40D000152B90 /* Sources */,
+				30AD94831CEE40D000152B90 /* Frameworks */,
+				30AD94841CEE40D000152B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrazyKreatures;
+			productName = KrazyKreatures;
+			productReference = 30AD94861CEE40D000152B90 /* KrazyKreatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30AD949D1CEE40D100152B90 /* KrazyKreaturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AD94B51CEE40D100152B90 /* Build configuration list for PBXNativeTarget "KrazyKreaturesTests" */;
+			buildPhases = (
+				30AD949A1CEE40D100152B90 /* Sources */,
+				30AD949B1CEE40D100152B90 /* Frameworks */,
+				30AD949C1CEE40D100152B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30AD94A01CEE40D100152B90 /* PBXTargetDependency */,
+			);
+			name = KrazyKreaturesTests;
+			productName = KrazyKreaturesTests;
+			productReference = 30AD949E1CEE40D100152B90 /* KrazyKreaturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30AD94A81CEE40D100152B90 /* KrazyKreaturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AD94B81CEE40D100152B90 /* Build configuration list for PBXNativeTarget "KrazyKreaturesUITests" */;
+			buildPhases = (
+				30AD94A51CEE40D100152B90 /* Sources */,
+				30AD94A61CEE40D100152B90 /* Frameworks */,
+				30AD94A71CEE40D100152B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30AD94AB1CEE40D100152B90 /* PBXTargetDependency */,
+			);
+			name = KrazyKreaturesUITests;
+			productName = KrazyKreaturesUITests;
+			productReference = 30AD94A91CEE40D100152B90 /* KrazyKreaturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30AD947E1CEE40D000152B90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Christopher Reitz";
+				TargetAttributes = {
+					30AD94851CEE40D000152B90 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					30AD949D1CEE40D100152B90 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 30AD94851CEE40D000152B90;
+					};
+					30AD94A81CEE40D100152B90 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 30AD94851CEE40D000152B90;
+					};
+				};
+			};
+			buildConfigurationList = 30AD94811CEE40D000152B90 /* Build configuration list for PBXProject "KrazyKreatures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30AD947D1CEE40D000152B90;
+			productRefGroup = 30AD94871CEE40D000152B90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30AD94851CEE40D000152B90 /* KrazyKreatures */,
+				30AD949D1CEE40D100152B90 /* KrazyKreaturesTests */,
+				30AD94A81CEE40D100152B90 /* KrazyKreaturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30AD94841CEE40D000152B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD948C1CEE40D000152B90 /* GameScene.sks in Resources */,
+				30AD94981CEE40D100152B90 /* LaunchScreen.storyboard in Resources */,
+				30AD94951CEE40D000152B90 /* Assets.xcassets in Resources */,
+				30AD94931CEE40D000152B90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD949C1CEE40D100152B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD94A71CEE40D100152B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30AD94821CEE40D000152B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD948E1CEE40D000152B90 /* GameScene.swift in Sources */,
+				30AD94901CEE40D000152B90 /* GameViewController.swift in Sources */,
+				30AD948A1CEE40D000152B90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD949A1CEE40D100152B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD94A31CEE40D100152B90 /* KrazyKreaturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD94A51CEE40D100152B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD94AE1CEE40D100152B90 /* KrazyKreaturesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30AD94A01CEE40D100152B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30AD94851CEE40D000152B90 /* KrazyKreatures */;
+			targetProxy = 30AD949F1CEE40D100152B90 /* PBXContainerItemProxy */;
+		};
+		30AD94AB1CEE40D100152B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30AD94851CEE40D000152B90 /* KrazyKreatures */;
+			targetProxy = 30AD94AA1CEE40D100152B90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30AD94911CEE40D000152B90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30AD94921CEE40D000152B90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30AD94961CEE40D100152B90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30AD94971CEE40D100152B90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30AD94B01CEE40D100152B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30AD94B11CEE40D100152B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30AD94B31CEE40D100152B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KrazyKreatures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.reitz.KrazyKreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30AD94B41CEE40D100152B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KrazyKreatures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.reitz.KrazyKreatures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30AD94B61CEE40D100152B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = KrazyKreaturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.reitz.KrazyKreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KrazyKreatures.app/KrazyKreatures";
+			};
+			name = Debug;
+		};
+		30AD94B71CEE40D100152B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KrazyKreaturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.reitz.KrazyKreaturesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KrazyKreatures.app/KrazyKreatures";
+			};
+			name = Release;
+		};
+		30AD94B91CEE40D100152B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = KrazyKreaturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.reitz.KrazyKreaturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KrazyKreatures;
+			};
+			name = Debug;
+		};
+		30AD94BA1CEE40D100152B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KrazyKreaturesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.reitz.KrazyKreaturesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KrazyKreatures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30AD94811CEE40D000152B90 /* Build configuration list for PBXProject "KrazyKreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD94B01CEE40D100152B90 /* Debug */,
+				30AD94B11CEE40D100152B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30AD94B21CEE40D100152B90 /* Build configuration list for PBXNativeTarget "KrazyKreatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD94B31CEE40D100152B90 /* Debug */,
+				30AD94B41CEE40D100152B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30AD94B51CEE40D100152B90 /* Build configuration list for PBXNativeTarget "KrazyKreaturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD94B61CEE40D100152B90 /* Debug */,
+				30AD94B71CEE40D100152B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30AD94B81CEE40D100152B90 /* Build configuration list for PBXNativeTarget "KrazyKreaturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD94B91CEE40D100152B90 /* Debug */,
+				30AD94BA1CEE40D100152B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30AD947E1CEE40D000152B90 /* Project object */;
+}
