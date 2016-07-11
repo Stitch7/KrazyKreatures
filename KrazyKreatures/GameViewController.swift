@@ -11,14 +11,16 @@ import SpriteKit
 
 class GameViewController: UIViewController {
 
+    // MARK: - UIViewController
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let scene = GameScene(size: view.bounds.size)
-//        let scene = StartGameScene(size: view.bounds.size)        
+//        let scene = GameScene(size: view.bounds.size)
+        let scene = StartGameScene(size: view.bounds.size)
         scene.scaleMode = .AspectFill
 
-        if let skView = self.view as? SKView {
+        if let skView = view as? SKView {
             skView.showsFPS = true
             skView.showsNodeCount = true
             skView.ignoresSiblingOrder = true

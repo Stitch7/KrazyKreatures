@@ -11,32 +11,41 @@ import SpriteKit
 
 class StartGameScene: SKScene {
 
+    // MARK: - SKScene
+
     override func didMoveToView(view: SKView) {
-        backgroundColor = SKColor.blackColor()
+        configure()
+    }
 
-        let title = SKLabelNode(fontNamed: "Emulogic")
-        title.text = "Krazy Kreatures"
-        title.fontSize = 20
-        title.position = CGPoint(x: CGRectGetMidX(frame), y: CGRectGetMidY(frame) + 80)
-        addChild(title)
+    func configure() {
+        backgroundColor = ColorPalette.background
+        configureTitleLabel()
+        configureStartGameLabel()
+    }
 
-        let startGameButton = PulsatingText(fontNamed: "Emulogic")
-        startGameButton.setTextFontSizeAndPulsate("START NEW GAME", fontSize: 10)
-        startGameButton.position = CGPointMake(CGRectGetMidX(frame), CGRectGetMidY(frame) - 60)
-        startGameButton.name = "StartGameButton"
-        addChild(startGameButton)
+    func configureTitleLabel() {
+        let titleLabel = SKLabelNode(fontNamed: "Emulogic")
+        titleLabel.text = "Krazy Kreatures"
+        titleLabel.fontSize = 20
+        titleLabel.position = CGPoint(x: CGRectGetMidX(frame), y: CGRectGetMidY(frame) + 80)
+        addChild(titleLabel)
+    }
+
+    func configureStartGameLabel() {
+        let startGameLabel = PulsatingText(fontNamed: "Emulogic")
+        startGameLabel.pulsate(text: "START NEW GAME", fontSize: 10)
+        startGameLabel.position = CGPointMake(CGRectGetMidX(frame), CGRectGetMidY(frame) - 60)
+        addChild(startGameLabel)
     }
 
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        guard let touch = touches.first else { return }
+        startGame()
+    }
 
-        let touchLocation = touch.locationInNode(self)
-        let touchedNode = nodeAtPoint(touchLocation)
-        if touchedNode.name == "StartGameButton" {
-            let gameOverScene = GameScene(size: size)
-            gameOverScene.scaleMode = scaleMode
-            let transitionType = SKTransition.flipHorizontalWithDuration(1.0)
-            view?.presentScene(gameOverScene, transition: transitionType)
-        }
+    func startGame() {
+        let gameOverScene = GameScene(size: size)
+        gameOverScene.scaleMode = scaleMode
+        let transitionType = SKTransition.flipHorizontalWithDuration(1.0)
+        view?.presentScene(gameOverScene, transition: transitionType)
     }
 }

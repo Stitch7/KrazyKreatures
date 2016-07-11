@@ -8,15 +8,15 @@
 
 import Foundation
 
-enum GameCards {
+enum Animal {
     case Cat
     case Dog
 
-    var sorted: [GameCards] {
+    var sorted: [Animal] {
         return [.Cat, .Dog]
     }
 
-    mutating func nextValue() -> String {
+    mutating func next() -> Animal {
         let sorted = self.sorted
         let currentIndex = sorted.indexOf(self)!
         var nextIndex = currentIndex + 1
@@ -25,6 +25,6 @@ enum GameCards {
         }
 
         self = sorted[nextIndex]
-        return String(self)
+        return self
     }
 }
